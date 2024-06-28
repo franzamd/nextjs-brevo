@@ -1,8 +1,20 @@
+# nextjs-brevo
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Overview
+
+This project includes a form that allows users to send emails using the [Brevo](https://www.brevo.com/). It demonstrates how to integrate Brevo with a Next.js application.
 
 ## Getting Started
 
-First, run the development server:
+First, create a `.env.local` file in the project root and add your Brevo API key:
+
+```bash
+BRAVE_API_KEY=your_api_key
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
